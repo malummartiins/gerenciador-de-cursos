@@ -24,14 +24,15 @@ public class TestaAlunos {
          System.out.println(alunos); //ele nao imprime na ordem
 
         //uso foreach para acessar os elementos;
-        for (String aluno : alunos) {
+        for (String aluno 
+        : alunos) {
             System.out.println(aluno);
         }
 
         //uma das vantagens do set é que ele nao aceita elementos repetidos
         //Collections.sort só funciona com listas - no set nao;
 
-        
+
 
 
     }
